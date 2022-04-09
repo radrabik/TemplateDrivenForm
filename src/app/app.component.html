@@ -3,5 +3,8 @@
   <input type="email" name="email" placeholder="Email">
   <input type="password" placeholder="Password">
   <button (click)="onLogin(loginForm)"> Login </button>
+  <div>
+    {{ loginForm.value | json }}
+  </div>
 
 </form>
