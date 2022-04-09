@@ -6,7 +6,9 @@ import { Component, VERSION } from '@angular/core';
   styleUrls: ['./app.component.css'],
 })
 export class AppComponent {
-  onLogin(loginForm: NgForm) {
+
+  onLogin(loginForm: ngForm) {
     console.log(loginForm.value, loginForm.valid);
   }
+
 }
