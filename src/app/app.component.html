@@ -1,4 +1,7 @@
-<hello name="{{ name }}"></hello>
-<p>
-  Start editing to see some magic happen :)
-</p>
+<form #loginForm="ngForm">
+
+<input type="email" name="email" placeholder="Email">
+<input type="password" placeholder="Password">
+<button (click)="login(loginForm)"> Login </button>
+
+</form>
